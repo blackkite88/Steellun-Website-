@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+body{
+  background: rgb(0, 0, 0);
+}
+
+#background-video{
+
+height: 100%;
+object-fit: cover;
+width: 100%;
+float: left;
+top: 0;
+padding: none;
+z-index: -1;
+position: fixed; /* optional depending on what you want to do in your app */
+
+
+}
+
+li {
+  text-decoration: none;
+  position: relative;
+  transition: 0.4s;
+  transition: transform 0.8s;
+}
+
+li:hover{
+  transform: scale(1.1);
+  color: red;
+}
+
+li::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  background-color: red;
+  transition: all 0.4s;
+}
+
+li:hover::before {
+  width: 100%;
+  left: 0;
+}
