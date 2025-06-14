@@ -1,4 +1,7 @@
 @import "tailwindcss";
+@plugin "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+
 
 body{
   background: rgb(0, 0, 0);
@@ -18,19 +21,19 @@ position: fixed; /* optional depending on what you want to do in your app */
 
 }
 
-li {
+#nav-full {
   text-decoration: none;
   position: relative;
   transition: 0.4s;
   transition: transform 0.8s;
 }
 
-li:hover{
+#nav-full:hover{
   transform: scale(1.1);
   color: red;
 }
 
-li::before {
+#nav-full::before {
   content: "";
   position: absolute;
   width: 0;
@@ -41,7 +44,42 @@ li::before {
   transition: all 0.4s;
 }
 
-li:hover::before {
+#nav-full:hover::before {
   width: 100%;
   left: 0;
+}
+
+#nav-menu {
+  text-decoration: none;
+  position: relative;
+  transition: 0.4s;
+  transition: transform 0.8s;
+}
+
+#nav-menu:hover{
+  transform: scale(1.1);
+  color: red;
+}
+
+#nav-menu::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  background-color: red;
+  transition: all 0.4s;
+}
+
+#nav-menu:hover::before {
+  width: 100%;
+  left: 0;
+}
+
+#event-card{
+  transition: transform 0.6s;
+}
+#event-card:hover{
+  transform: scale(1.1);
 }
