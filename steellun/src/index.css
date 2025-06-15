@@ -83,3 +83,10 @@ position: fixed; /* optional depending on what you want to do in your app */
 #event-card:hover{
   transform: scale(1.1);
 }
+
+#gallery-item{
+  transition: transform 0.6s;
+}
+#gallery-item:hover{
+  transform: scale(1.2);
+}

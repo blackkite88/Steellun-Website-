@@ -6,6 +6,7 @@ import Events from './components/Events.jsx'
 import HomePage from './components/HomePage.jsx'
 import About from './components/About.jsx'
 import Team from './components/Team.jsx'
+import Gallery from './components/Gallery.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,6 +24,7 @@ function App() {
     <About />
     <Events />
     <Team />
+    <Gallery />
     </>
   )
 }
