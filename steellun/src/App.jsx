@@ -7,6 +7,8 @@ import HomePage from './components/HomePage.jsx'
 import About from './components/About.jsx'
 import Team from './components/Team.jsx'
 import Gallery from './components/Gallery.jsx'
+import Contact from './components/Contact.jsx'
+import Footer from './components/Footer.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,6 +27,8 @@ function App() {
     <Events />
     <Team />
     <Gallery />
+    <Contact />
+    <Footer />
     </>
   )
 }
