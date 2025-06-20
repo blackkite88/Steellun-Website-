@@ -11,9 +11,9 @@ const Navbar = () => {
   };
 
   return (
-    <div id='xx2' className="z-100 border-b-1 border-white/30 position-absolute top-0 backdrop-blur-lg bg-clip-padding backdrop-filter bg-black/20 bg-opacity-30 text-white w-full flex flex-wrap justify-between items-center mx-auto p-4">
+    <div id='xx2' className="z-100 border-b-1 border-white/30 position-absolute top-0 backdrop-blur-lg bg-clip-padding backdrop-filter bg-white/5 text-white w-full flex flex-wrap justify-between items-center mx-auto p-4">
       <div className="flex items-center gap-3">
-        <img className='h-10 md:h-13 w-10 md:w-13' src={logo} alt="Logo" />
+        <img className='h-10 md:h-12 w-10 md:w-12' src={logo} alt="Logo" />
         <h1 className='text-red-900 text-2xl md:text-4xl font-bold'>STEELLUN</h1>
       </div>
 

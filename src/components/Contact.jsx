@@ -58,8 +58,7 @@ const Contact = () => {
       )}
 
       {/* Navigation */}
-      <h1 className="text-white text-3xl sm:text-5xl mt-12 pt-12 mb-6 font-bold text-center">Contact Us</h1>
-      <div className="container mx-auto px-8 pb-12">
+      <div className="container mx-auto mt-10 pt-12 mb-6 px-8 pb-12">
         {/* Header */}
         <div className="text-center mb-16">
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">

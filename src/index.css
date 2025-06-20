@@ -2,9 +2,9 @@
 @plugin "flowbite-react/plugin/tailwindcss";
 @source "../.flowbite-react/class-list.json";
 
-
 body{
   background: rgb(0, 0, 0);
+  font-family: "Poppins", sans-serif;
 }
 
 #background-video{

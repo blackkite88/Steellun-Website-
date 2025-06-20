@@ -15,7 +15,8 @@ function App() {
   return (
     <>
       {/* Background video */}
-      <video id="background-video" loop autoPlay muted playsInline>
+      <video id="background-video" className='
+  opacity-45' loop autoPlay muted playsInline>
         <source src={wallpaper} type="video/mp4" />
         Your browser does not support the video tag.
       </video>

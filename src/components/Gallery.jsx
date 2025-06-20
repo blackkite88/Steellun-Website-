@@ -18,8 +18,8 @@ const images=[
 
 const Gallery = () => {
   return (
-    <div className="flex flex-col items-center">
-      <h1 className="text-white text-3xl sm:text-5xl my-12 font-bold">Gallery</h1>
+    <div className="flex flex-col items-center mb-10">
+      <h1 className="text-white text-3xl sm:text-5xl my-12 font-bold">The Steellun Archive</h1>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mx-6">
         {images.map((i) => (
           <div className="grid gap-4">
