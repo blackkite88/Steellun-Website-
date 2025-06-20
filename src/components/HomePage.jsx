@@ -7,7 +7,7 @@ const HomePage = () => {
       id="xx1"
       className="top-0 flex flex-col items-center text-center justify-center"
     >
-      <div className="text-red-500 font-bold text-[60px]/25 sm:text-[80px]/35 md:text-[100px]/40 pb-0 lg:text-[200px]/60 line-hei mt-40 sm:mt-30">
+      <div className="text-red-500 font-bold text-[60px]/29 sm:text-[80px]/35 md:text-[100px]/40 pb-0 lg:text-[200px]/60 mt-40 sm:mt-30">
         STEELLUN
       </div>
       <div className="text-red-500 font-bold text-2xl sm:text-3xl mt-0 mb-10 md:text-5xl ">
