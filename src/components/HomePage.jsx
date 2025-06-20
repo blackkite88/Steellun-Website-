@@ -1,5 +1,4 @@
 import React from "react";
-import Scene from "./Scene.jsx";
 import Typewriter from "typewriter-effect";
 
 const HomePage = () => {
