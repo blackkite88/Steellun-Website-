@@ -16,7 +16,7 @@ float: left;
 top: 0;
 padding: none;
 z-index: -1;
-position: fixed; /* optional depending on what you want to do in your app */
+position: fixed; 
 
 
 }
@@ -26,6 +26,10 @@ position: fixed; /* optional depending on what you want to do in your app */
   position: relative;
   transition: 0.4s;
   transition: transform 0.8s;
+}
+
+#nav-full:active{
+  transform: scale(1.1);
 }
 
 #nav-full:hover{
@@ -109,4 +113,23 @@ position: fixed; /* optional depending on what you want to do in your app */
   animation: appear linear;
   animation-timeline: view();
   animation-range: entry 0% cover 50%;
+}
+
+#steellun{
+  background: linear-gradient(to right,
+  #BF0000,
+  #7c0202,
+  #9d0808,
+  #c10303
+  );
+  background-size: 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animate-gradient 4s linear infinite;
+}
+@keyframes animate-gradient {
+  to{
+    background-position: 200%;
+  }
 }

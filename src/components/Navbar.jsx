@@ -13,8 +13,8 @@ const Navbar = () => {
   // Active link styling
   const linkStyle = ({ isActive }) =>
     isActive
-      ? 'text-red-500 underline underline-offset-4 font-semibold'
-      : 'hover:text-red-400 transition-colors';
+      ? 'text-red-600 underline underline-offset-4 font-bold'
+      : 'hover:text-red-600 transition-colors';
 
   return (
     <div className="z-50 border-b border-white/30 backdrop-blur-lg bg-white/5 text-white w-full flex flex-wrap justify-between items-center p-4">
@@ -25,18 +25,17 @@ const Navbar = () => {
       </div>
 
       {/* Desktop Menu */}
-      <ul className="hidden md:flex font-medium gap-4">
-        <li><NavLink to="/" className={linkStyle}>Home</NavLink></li>
-        <li><NavLink to="/events" className={linkStyle}>Events</NavLink></li>
-        <li><NavLink to="/team" className={linkStyle}>Our Team</NavLink></li>
-        <li><NavLink to="/report" className={linkStyle}>Annual Report</NavLink></li>
-        <li><NavLink to="/gallery" className={linkStyle}>Gallery</NavLink></li>
-        <li><NavLink to="/contact" className={linkStyle}>Contact Us</NavLink></li>
-        <li><NavLink to="/about" className={linkStyle}>About Us</NavLink></li>
+      <ul className="hidden lg:flex font-medium text-lg gap-8">
+        <li><NavLink className={linkStyle} id='nav-full' to="/" >Home</NavLink></li>
+        <li><NavLink className={linkStyle} id='nav-full' to="/about" >About Us</NavLink></li>
+        <li><NavLink className={linkStyle} id='nav-full' to="/events" >Events</NavLink></li>
+        <li><NavLink className={linkStyle} id='nav-full' to="/team" >Team</NavLink></li>
+        <li><NavLink className={linkStyle} id='nav-full' to="/gallery" >Gallery</NavLink></li>
+        <li><NavLink className={linkStyle} id='nav-full' to="/contact" >Contact Us</NavLink></li>
       </ul>
 
       {/* Mobile Menu Button */}
-      <div className="md:hidden">
+      <div className="lg:hidden">
         <button onClick={handleNav}>
           {showNav ? <X size={28} /> : <Menu size={28} />}
         </button>
@@ -44,14 +43,13 @@ const Navbar = () => {
 
       {/* Mobile Menu Items */}
       {showNav && (
-        <ul className="md:hidden flex flex-col font-medium text-center w-full mt-4 bg-black/90 py-4 rounded-lg transition-all duration-300 ease-in-out">
-          <li><NavLink to="/" className={linkStyle} onClick={handleNav}>Home</NavLink></li>
-          <li><NavLink to="/events" className={linkStyle} onClick={handleNav}>Events</NavLink></li>
-          <li><NavLink to="/team" className={linkStyle} onClick={handleNav}>Our Team</NavLink></li>
-          <li><NavLink to="/report" className={linkStyle} onClick={handleNav}>Annual Report</NavLink></li>
-          <li><NavLink to="/gallery" className={linkStyle} onClick={handleNav}>Gallery</NavLink></li>
-          <li><NavLink to="/contact" className={linkStyle} onClick={handleNav}>Contact Us</NavLink></li>
-          <li><NavLink to="/about" className={linkStyle} onClick={handleNav}>About Us</NavLink></li>
+        <ul className="lg:hidden flex flex-col font-medium text-center w-full mt-4 gap-3 rounded-lg transition-all duration-300 ease-in-out">
+          <li><NavLink id='nav-menu' className={linkStyle} to="/" onClick={handleNav}>Home</NavLink></li>
+          <li><NavLink id='nav-menu' className={linkStyle} to="/about" onClick={handleNav}>About Us</NavLink></li>
+          <li><NavLink id='nav-menu' className={linkStyle} to="/events" onClick={handleNav}>Events</NavLink></li>
+          <li><NavLink id='nav-menu' className={linkStyle} to="/team" onClick={handleNav}>Team</NavLink></li>
+          <li><NavLink id='nav-menu' className={linkStyle} to="/gallery" onClick={handleNav}>Gallery</NavLink></li>
+          <li><NavLink id='nav-menu' className={linkStyle} to="/contact" onClick={handleNav}>Contact Us</NavLink></li>
         </ul>
       )}
     </div>

@@ -3,7 +3,7 @@ import teamImage from '../assets/team.png';
 
 const AboutSection = () => {
   return (
-    <div id="about" className="relative bg-gradient-to-br from-gray-900 via-black to-gray-800 text-white overflow-hidden">
+    <div id="about" className="backdrop-blur-xl backdrop-filter mx-6 my-6 bg-white/20 bg-opacity-30 text-white overflow-hidden">
       {/* Animated background elements */}
       <div className="absolute inset-0">
         <div className="absolute top-20 left-10 w-32 h-32 bg-red-600/10 rounded-full blur-xl animate-pulse"></div>
