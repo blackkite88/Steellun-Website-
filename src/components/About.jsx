@@ -3,7 +3,7 @@ import teamImage from '../assets/dummyteam.jpg';
 
 const AboutSection = () => {
   return (
-    <div className="bg-[#1a1a1a] text-white px-4 py-10 sm:px-6 md:px-16 lg:px-24">
+    <div className=" text-white px-4 py-10 sm:px-6 md:px-16 lg:px-24">
       {/* About and Vision Section */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
         {/* About Us */}

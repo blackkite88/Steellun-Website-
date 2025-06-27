@@ -20,10 +20,10 @@ const Navbar = () => {
       {/* Desktop Menu */}
       <ul className="hidden font-medium md:flex">
         <li id='nav-menu' className="p-4"><Link to="/">Home</Link></li>
+        <li id='nav-menu' className="p-4"><Link to="/about">About Us</Link></li>
         <li id='nav-menu' className="p-4"><Link to="/events">Events</Link></li>
-        <li id='nav-menu' className="p-4"><Link to="/team">Our Team</Link></li>
-        <li id='nav-menu' className="p-4"><Link to="/report">Annual Report</Link></li>
-        <li id='nav-menu' className="p-4"><Link to="/Gallery">Gallery</Link></li>
+        <li id='nav-menu' className="p-4"><Link to="/gallery">Gallery</Link></li>
+        <li id='nav-menu' className="p-4"><Link to="/team">Team</Link></li>
         <li id='nav-menu' className="p-4"><Link to="/contact">Contact Us</Link></li>
       </ul>
 
@@ -36,9 +36,10 @@ const Navbar = () => {
       {showNav && (
         <ul className="flex font-medium text-center flex-col basis-full items-center mt-4">
           <li id='nav-menu' className="p-4"><Link to="/" onClick={handleNav}>Home</Link></li>
+          <li id='nav-menu' className="p-4"><Link to="/about" onClick={handleNav}>About Us</Link></li>
           <li id='nav-menu' className="p-4"><Link to="/events" onClick={handleNav}>Events</Link></li>
-          <li id='nav-menu' className="p-4"><Link to="/team" onClick={handleNav}>Our Team</Link></li>
-          <li id='nav-menu' className="p-4"><Link to="/report" onClick={handleNav}>Annual Report</Link></li>
+          <li id='nav-menu' className="p-4"><Link to="/gallery" onClick={handleNav}>Gallery</Link></li>
+          <li id='nav-menu' className="p-4"><Link to="/team" onClick={handleNav}>Team</Link></li>
           <li id='nav-menu' className="p-4"><Link to="/contact" onClick={handleNav}>Contact Us</Link></li>
         </ul>
       )}
