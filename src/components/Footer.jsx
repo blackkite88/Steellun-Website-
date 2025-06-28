@@ -7,7 +7,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="order-white/30 position-absolute top-0 backdrop-blur-sm backdrop-filter bg-white/10 pt-10 text-white">
+    <footer className="w-full bottom-0 backdrop-blur-sm backdrop-filter bg-white/10 pt-10 text-white">
       <div className="flex flex-wrap md:flex-nowrap  justify-between px-8 md:px-16">
       <div className="flex flex-col gap-3 md:w-1/4 mb-4">
         <h3 className="text-xl font-bold">Steellun</h3>

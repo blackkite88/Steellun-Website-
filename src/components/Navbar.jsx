@@ -31,7 +31,6 @@ const Navbar = () => {
         <li><NavLink className={linkStyle} id='nav-full' to="/events" >Events</NavLink></li>
         <li><NavLink className={linkStyle} id='nav-full' to="/team" >Team</NavLink></li>
         <li><NavLink className={linkStyle} id='nav-full' to="/gallery" >Gallery</NavLink></li>
-        <li><NavLink className={linkStyle} id='nav-full' to="/contact" >Contact Us</NavLink></li>
       </ul>
 
       {/* Mobile Menu Button */}
@@ -49,7 +48,6 @@ const Navbar = () => {
           <li><NavLink id='nav-menu' className={linkStyle} to="/events" onClick={handleNav}>Events</NavLink></li>
           <li><NavLink id='nav-menu' className={linkStyle} to="/team" onClick={handleNav}>Team</NavLink></li>
           <li><NavLink id='nav-menu' className={linkStyle} to="/gallery" onClick={handleNav}>Gallery</NavLink></li>
-          <li><NavLink id='nav-menu' className={linkStyle} to="/contact" onClick={handleNav}>Contact Us</NavLink></li>
         </ul>
       )}
     </div>

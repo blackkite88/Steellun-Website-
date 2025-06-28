@@ -11,7 +11,7 @@ const AboutSection = () => {
         <div className="absolute top-1/2 left-1/4 w-24 h-24 bg-white/5 rounded-full blur-lg animate-pulse delay-500"></div>
       </div>
 
-      <div className="relative z-10 px-4 py-16 sm:px-6 md:px-16 lg:px-24">
+      <div id='xx1' className="relative z-10 px-4 py-16 sm:px-6 md:px-16 lg:px-24">
         {/* About and Vision Section */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start mb-20">
           {/* About Us */}

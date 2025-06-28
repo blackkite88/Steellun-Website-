@@ -7,7 +7,6 @@ import HomePage from './components/HomePage.jsx';
 import About from './components/About.jsx';
 import Team from './components/Team.jsx';
 import Gallery from './components/Gallery.jsx';
-import Contact from './components/Contact.jsx';
 import Footer from './components/Footer.jsx';
 // import Report from './components/Report.jsx'; // Uncomment only if file exists
 
@@ -30,7 +29,6 @@ function App() {
           <Route path="/events" element={<Events />} />
           <Route path="/team" element={<Team />} />
           <Route path="/gallery" element={<Gallery />} />
-          <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
         </Routes>
 
