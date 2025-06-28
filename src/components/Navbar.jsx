@@ -17,7 +17,7 @@ const Navbar = () => {
       : 'hover:text-red-600 transition-colors';
 
   return (
-    <div className="z-50 border-b border-white/30 backdrop-blur-lg bg-white/5 text-white w-full flex flex-wrap justify-between items-center p-4">
+    <div className="z-50 border-b border-white/30 backdrop-blur-lg bg-white/5 text-[#c6c1c1] w-full flex flex-wrap justify-between items-center p-4">
       {/* Logo and Title */}
       <div className="flex items-center gap-3">
         <img className="h-10 md:h-12 w-10 md:w-12" src={logo} alt="Logo" />

@@ -13,16 +13,18 @@ const HomePage = () => {
       >
         STEELLUN
       </div>
-      <div className="text-red-500 font-bold text-2xl sm:text-3xl mt-0 mb-12 md:mb-20 md:text-5xl ">
-        <Typewriter
+      <div className="text-[#c6c1c1] flex font-bold text-2xl gap-3 sm:text-3xl mt-0 mb-12 md:mb-20 md:text-5xl ">
+        The
+       <div className="text-red-500"> <Typewriter 
           options={{
-            strings: ["The Official Material Advantage Chapter"],
+            strings: ["Material Advantage"],
             autoStart: true,
             loop: true,
           }}
-        />
+        /></div>
+        Chapter Of NIT Rourkela
       </div>
-      <div className="font-medium text-white w-78 sm:w-120 md:w-150 lg:w-150 text-lg sm:text-xl md:text-4xl mb-40">
+      <div className="font-medium text-[#c6c1c1] w-78 sm:w-120 md:w-150 lg:w-150 text-lg sm:text-xl md:text-4xl mb-40">
         We don’t just study materials — we
         <span className="mx-2.5 text-red-500 font-semibold italic">steel</span>
         the spotlight.
@@ -35,7 +37,7 @@ const HomePage = () => {
             </h2>
             <div className="w-44 h-1.5 bg-gradient-to-r from-red-600 to-red-400 mx-auto rounded-full"></div>
           </div>
-          <div className="font-medium  text-white text-md sm:text-lg md:text-2xl">
+          <div className="font-medium  text-[#c6c1c1] text-md sm:text-lg md:text-2xl">
             <span className=" text-red-500 font-bold">STEELLUN</span> is the
             official Material Advantage chapter of NIT Rourkela and proudly
             stands among the nine recognized chapters in India. Backed by
