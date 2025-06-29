@@ -4,7 +4,7 @@ import TeamCard from './TeamCard'
 import logo from '../assets/dummycard.png'
 import { Carousel } from "flowbite-react";
 import EventCard from './EventCard.jsx'
-import img1 from'../assets/image.png'
+import img1 from'../assets/image.jpeg'
 import { useState } from 'react';
 
 const slides=[
