@@ -13,7 +13,7 @@ const HomePage = () => {
       >
         STEELLUN
       </div>
-      <div className="text-[#c6c1c1] flex font-bold text-2xl gap-3 sm:text-3xl mt-0 mb-12 md:mb-20 md:text-5xl ">
+      <div className="text-[#c6c1c1] flex flex-col lg:flex-row font-bold text-2xl gap-3 sm:text-3xl mt-0 mb-12 md:mb-20 md:text-5xl ">
         The
        <div className="text-red-500"> <Typewriter 
           options={{
@@ -29,7 +29,7 @@ const HomePage = () => {
         <span className="mx-2.5 text-red-500 font-semibold italic">steel</span>
         the spotlight.
       </div>
-      <div className="flex items-center text-center justify-center">
+      <div id="xx2" className="flex items-center text-center justify-center">
         <div className="font-medium backdrop-blur-xl mx-5 p-4 md:p-10 rounded-2xl backdrop-filter bg-white/20 bg-opacity-30 w-[96%] mb-20">
           <div className="mb-12">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-5 bg-gradient-to-r from-white  to-red-500 bg-clip-text text-transparent">
