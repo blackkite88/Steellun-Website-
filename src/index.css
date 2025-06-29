@@ -110,9 +110,23 @@ position: fixed;
   animation: appear .9s linear;
 }
 #xx2{
-  animation: appear linear;
+  animation: appear both;
   animation-timeline: view();
-  animation-range: entry 0% cover 55%;
+  animation-range: entry 0% cover 100vh;
+}
+@keyframes appear2 {
+  0% {
+    opacity: 0;
+    transform: scale(0.8) translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+#cardx {
+  animation: appear2 0.6s ease-in-out forwards;
 }
 
 #steellun{
@@ -133,3 +147,55 @@ position: fixed;
     background-position: 200%;
   }
 }
+
+/* .card-container {
+  overflow: hidden;
+  position: relative;
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.card-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #222;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.4s ease;
+  z-index: 1;
+  padding: 20px;
+}
+
+.card-slide {
+  
+  position: absolute;
+  bottom: -100%;
+  width: screen;
+  height: screen;
+  background-color: #0f172a; /* Tailwind slate-900 equivalent */
+  /* color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: bottom 0.4s ease;
+  z-index: 2;
+}
+
+.card-container:hover .card-slide {
+  overflow: visible;
+  bottom: 0;
+}
+.card-container:hover {
+  overflow: visible;
+}
+ */ 
+
+
+ 
