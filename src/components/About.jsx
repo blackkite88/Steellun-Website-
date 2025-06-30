@@ -1,9 +1,9 @@
 import React from 'react';
-import teamImage from '../assets/team.png';
+import teamImage from '../assets/dummycard.png';
 
 const AboutSection = () => {
   return (
-    <div id="about" className="backdrop-blur-xl backdrop-filter mx-6 my-6 bg-white/20 bg-opacity-30 text-white overflow-hidden">
+    <div id="about" className="backdrop-blur-xl backdrop-filter mx-6 my-6 scroll-smooth bg-white/20 bg-opacity-30 text-[#c6c1c1] overflow-hidden">
       {/* Animated background elements */}
       <div className="absolute inset-0">
         <div className="absolute top-20 left-10 w-32 h-32 bg-red-600/10 rounded-full blur-xl animate-pulse"></div>
@@ -70,15 +70,15 @@ const AboutSection = () => {
           
           <div className="relative group max-w-4xl mx-auto">
             {/* Glowing border effect */}
-            <div className="absolute -inset-1 bg-gradient-to-r from-red-600 via-red-500 to-red-600 rounded-2xl blur-sm opacity-75 group-hover:opacity-100 transition-opacity duration-300 animate-pulse"></div>
+            <div className="absolute -inset-1 bg-gradient-to-r from-red-600 via-red-500 to-red-600 rounded-lg blur-sm opacity-75 group-hover:opacity-100 transition-opacity duration-300"></div>
             
             {/* Main image container */}
-            <div className="relative bg-gradient-to-br from-gray-800 to-gray-900 p-3 rounded-2xl shadow-2xl transform group-hover:scale-[1.02] transition-all duration-500">
-              <div className="relative overflow-hidden rounded-xl">
+            <div className="relative bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg shadow-2xl transform group-hover:scale-[1.02] transition-all duration-500">
+              <div className="relative overflow-hidden rounded-lg">
                 <img
                   src={teamImage}
                   alt="Our Team"
-                  className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105"
+                  className="w-full h-auto object-cover transition-transform duration-800 group-hover:scale-101"
                 />
                 
                 {/* Overlay gradient */}
@@ -86,10 +86,10 @@ const AboutSection = () => {
               </div>
               
               {/* Decorative corner elements */}
-              <div className="absolute top-5 left-5 w-4 h-4 border-l-2 border-t-2 border-red-400 opacity-60"></div>
-              <div className="absolute top-5 right-5 w-4 h-4 border-r-2 border-t-2 border-red-400 opacity-60"></div>
-              <div className="absolute bottom-5 left-5 w-4 h-4 border-l-2 border-b-2 border-red-400 opacity-60"></div>
-              <div className="absolute bottom-5 right-5 w-4 h-4 border-r-2 border-b-2 border-red-400 opacity-60"></div>
+              <div className="absolute top-5 left-5 w-4 h-4  border-red-400 opacity-60"></div>
+              <div className="absolute top-5 right-5 w-4 h-4  border-red-400 opacity-60"></div>
+              <div className="absolute bottom-5 left-5 w-4 h-4  border-red-400 opacity-60"></div>
+              <div className="absolute bottom-5 right-5 w-4 h-4  border-red-400 opacity-60"></div>
             </div>
           </div>
         </div>

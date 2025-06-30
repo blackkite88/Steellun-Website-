@@ -21,7 +21,7 @@ const Navbar = () => {
       {/* Logo and Title */}
       <div className="flex items-center gap-3">
         <img className="h-10 md:h-12 w-10 md:w-12" src={logo} alt="Logo" />
-        <h1 className="text-red-900 text-2xl md:text-4xl font-bold">STEELLUN</h1>
+        <h1 id='steellun' className="text-red-900 text-2xl md:text-4xl font-bold">STEELLUN</h1>
       </div>
 
       {/* Desktop Menu */}

@@ -1,15 +1,27 @@
-import React from 'react'
+import React from 'react';
 
-const EventCard = ({title, image, description}) => {
+const EventCard = ({ title, image, description }) => {
   return (
-    <div className='flex h-full flex-col justify-between bg-amber-50'>
-      <div className="overflow-hidden">
-        <img id='event-card' className='' src={image} alt="" />
-      </div>
-      <h2 className='text-3xl font-bold '>{title}</h2>
-      <p className='text-xl font-medium mx-5 my-2'>{description}</p>
-    </div>
-  )
-}
+    <div className="relative w-full h-full overflow-hidden rounded-lg shadow-lg group cursor-pointer bg-amber-50">
+      {/* Image Layer */}
+      <img
+        id="event-card"
+        src={image}
+        alt={title}
+        className="w-full h-full transition-transform duration-500"
+      />
 
-export default EventCard
+      {/* Slide-up Text Layer */}
+      <div className="absolute bottom-0 left-0 w-full h-full flex flex-col justify-end px-5 py-6 
+        bg-gradient-to-t from-black/80 to-transparent 
+        translate-y-full group-hover:translate-y-0 
+        transition-transform duration-500 ease-in-out">
+        
+        <h3 className="text-white text-xl font-bold mb-2">{title}</h3>
+        <p className="text-gray-300 text-sm">{description}</p>
+      </div>
+    </div>
+  );
+};
+
+export default EventCard;

@@ -107,7 +107,7 @@ position: fixed;
 }
 
 #xx1{
-  animation: appear .9s linear;
+  animation: appear .8s ease-in-out;
 }
 #xx2{
   animation: appear both;
@@ -126,21 +126,21 @@ position: fixed;
 }
 
 #cardx {
-  animation: appear2 0.6s ease-in-out forwards;
+  animation: appear2 0.4s linear;
 }
 
 #steellun{
   background: linear-gradient(to right,
-  #BF0000,
   #7c0202,
-  #9d0808,
-  #c10303
+  #970404,
+  #c10303,
+  #7c0202
   );
   background-size: 200%;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: animate-gradient 4s linear infinite;
+  animation: animate-gradient 5s linear infinite;
 }
 @keyframes animate-gradient {
   to{
@@ -197,5 +197,11 @@ position: fixed;
 }
  */ 
 
+/* global.css */
+:global(.carousel) {
+  overflow: hidden !important;
+}
 
- 
+:global(.carousel::-webkit-scrollbar) {
+  display: none;
+}
