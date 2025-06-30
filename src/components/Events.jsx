@@ -25,7 +25,7 @@ const slides=[
 
 const Events = () => {
   return (
-    <div className='flex flex-col items-center text-center'>
+    <div className='flex scroll-smooth flex-col items-center text-center'>
       <div className=" flex flex-col items-center text-center justify-center mb-15">
         <h1 className='text-white text-2xl sm:text-3xl my-12 font-bold'>Our Flagship Events</h1>
       <div id='xx1' className="flex flex-wrap items-center text-center justify-center md:gap-10  px-auto gap-5 ">

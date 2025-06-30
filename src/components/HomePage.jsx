@@ -5,7 +5,7 @@ const HomePage = () => {
   return (
     <div
       id="xx1"
-      className="top-0 flex flex-col items-center text-center  justify-center"
+      className="top-0 flex flex-col scroll-smooth items-center text-center  justify-center"
     >
       <div
         id="steellun"
@@ -24,7 +24,7 @@ const HomePage = () => {
         /></div>
         Chapter Of NIT Rourkela
       </div>
-      <div className="font-medium text-[#c6c1c1] w-78 sm:w-120 md:w-150 lg:w-150 text-lg sm:text-xl md:text-4xl mb-15 md:mb-40">
+      <div className="font-medium text-[#c6c1c1] w-78 sm:w-120 md:w-150 lg:w-150 text-lg sm:text-xl md:text-4xl mb-18 md:mb-40">
         We don’t just study materials — we
         <span className="mx-2.5 text-red-500 font-semibold italic">steel</span>
         the spotlight.
