@@ -12,7 +12,7 @@ import Footer from './components/Footer.jsx';
 
 function App() {
   return (
-    <>
+    <div className='scroll-smooth'>
       {/* Background video */}
       <video id="background-video" className='
   opacity-45' loop autoPlay muted playsInline>
@@ -34,7 +34,7 @@ function App() {
 
         <Footer />
       </Router>
-    </>
+    </div>
   );
 }
 

@@ -19,9 +19,7 @@ const slides=[
 const Team = () => {
   const [isHovered, setIsHovered] = useState(false);
   return (
-    <div className='relative'>
-    {isHovered && <div className="pointer-events-none
- z-[101] fixed inset-0 h-screen w-screen bg-black/80"></div>}
+    <div className='relative scroll-smooth'>
     <div id='xx1' className="flex flex-col relative text-center justify-center items-center m-5">
       <div className="flex flex-col m-5 relative text-center justify-center items-center">
         <h1 className='font-bold text-[#c6c1c1] text-lg sm:text-xl md:text-4xl' >FACULTY ADVISOR</h1>
