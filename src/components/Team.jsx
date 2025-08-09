@@ -40,7 +40,7 @@ const Team = () => {
       <div className="w-screen flex m-5 flex-col relative text-center justify-center items-center">
         <h1 className='font-bold text-[#c6c1c1] w-78 sm:w-120 md:w-150 lg:w-150 text-lg sm:text-xl md:text-4xl' >TEAM MEMBERS</h1>
         <div className="w-44 h-1 bg-gradient-to-r from-red-600 to-red-400 mx-auto mt-2 mb-5 rounded-full"></div>
-        <div className="flex flex-wrap justify-center gap-2 mx-2 md:gap-4">
+        <div className="flex flex-wrap justify-center gap-2 mx-2 md:gap-12">
           {members.map((m) => <TeamCard name={m['Full Name']} role={m['Team Name / Designation']} image={m['Upload Profile Photo']} quote={m['Your Quote']} />)}
         </div>
       </div>
