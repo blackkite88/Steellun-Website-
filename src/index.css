@@ -126,7 +126,7 @@ position: fixed;
 }
 
 #cardx {
-  animation: appear2 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+  animation: appear2 0.70s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
 }
 
 #steellun{
