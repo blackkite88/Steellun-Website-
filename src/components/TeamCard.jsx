@@ -35,7 +35,7 @@ const TeamCard = ({ name, image, role, quote }) => {
         />
         <div className="flex h-[20%] flex-col justify-center">
           <h4 className="font-bold text-[#6d6a6a] text-xl md:text-2xl lg:text-4xl">
-            {name}
+            {name.split(" ")[0]}
           </h4>
         </div>
       </div>

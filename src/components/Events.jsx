@@ -1,23 +1,26 @@
 import React from 'react';
 import EventCard from './EventCard.jsx';
+import edge from '../assets/edge.png';
+import gi from '../assets/gi.png';
+import me from '../assets/me.png';
 import logo from '../assets/dummycard.png';
 import { Carousel } from "flowbite-react";
 import Flagships from './Flagships.jsx';
 
 const slides = [
   {
-    name: "Event",
-    image: logo,
+    name: "EDGE",
+    image: edge,
     description: "jinga la la hoo hoo"
   },
   {
-    name: "Event",
-    image: logo,
+    name: "GI",
+    image: gi,
     description: "jinga la la hoo hoo"
   },
   {
-    name: "Event",
-    image: logo,
+    name: "ME",
+    image: me,
     description: "jinga la la hoo hoo"
   }
 ];
@@ -28,8 +31,8 @@ const Events = () => {
       <div className="flex flex-col items-center text-center justify-center mb-5 md:mb-15">
         <h1 className='text-[#c6c1c1] text-2xl sm:text-3xl my-12 font-bold'>Our Flagship Events</h1>
         <div id='xx1' className="flex flex-wrap items-center text-center justify-center md:gap-10 px-auto gap-5">
-          <Flagships title={"af"} image={logo} description={"effefe"} />
-          <Flagships title={"af"} image={logo} description={"effefe"} />
+          <Flagships title={"EDGE"} image={edge} description={"effefe"} />
+          <Flagships title={"GI"} image={gi} description={"effefe"} />
         </div>
       </div>
 
