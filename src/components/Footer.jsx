@@ -1,5 +1,6 @@
 import React from "react";
 import { ArrowUp } from "lucide-react";
+import { FaLinkedinIn, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -18,91 +19,26 @@ const Footer = () => {
         </p>
         <div className="flex space-x-4">
           <a
-            href="#"
+            href="https://www.linkedin.com/company/steellun-nitr/posts/?feedView=all"
             className="text-gray-400 hover:text-white transition-colors"
           >
-            <h1>A</h1>
+            <FaLinkedinIn />
+          </a>
+          <a
+            href="https://www.instagram.com/steellun__nitr/"
+            className="text-gray-400 hover:text-white transition-colors"
+          >
+           <FaInstagram />
           </a>
           <a
             href="#"
             className="text-gray-400 hover:text-white transition-colors"
           >
-            <h1>A</h1>
-          </a>
-          <a
-            href="#"
-            className="text-gray-400 hover:text-white transition-colors"
-          >
-            <h1>A</h1>
-          </a>
-          <a
-            href="#"
-            className="text-gray-400 hover:text-white transition-colors"
-          >
-            <h1>A</h1>
-          </a>
-          <a
-            href="#"
-            className="text-gray-400 hover:text-white transition-colors"
-          >
-            <h1>A</h1>
+           <FaTwitter />
           </a>
         </div>
       </div>
 
-      <div className="mb-4">
-        <h4 className="text-lg font-semibold mb-3">Quick Links</h4>
-        <ul className="space-y-1">
-          <li>
-            <a
-              href="#"
-              className="text-gray-300 hover:text-white transition-colors text-sm"
-            >
-              Home
-            </a>
-          </li>
-          <li>
-            <a
-              href="#"
-              className="text-gray-300 hover:text-white transition-colors text-sm"
-            >
-              About Us
-            </a>
-          </li>
-          <li>
-            <a
-              href="#"
-              className="text-gray-300 hover:text-white transition-colors text-sm"
-            >
-              Research
-            </a>
-          </li>
-          <li>
-            <a
-              href="#"
-              className="text-gray-300 hover:text-white transition-colors text-sm"
-            >
-              Publications
-            </a>
-          </li>
-          <li>
-            <a
-              href="#"
-              className="text-gray-300 hover:text-white transition-colors text-sm"
-            >
-              Faculty
-            </a>
-          </li>
-          <li>
-            <a
-              href="#"
-              className="text-gray-300 hover:text-white transition-colors text-sm"
-            >
-              Students
-            </a>
-          </li>
-        </ul>
-      </div>
       <div className="mb-4">
         <h4 className="text-lg font-semibold mb-3">Contact Info</h4>
         <div className="space-y-3 text-sm">
@@ -159,3 +95,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

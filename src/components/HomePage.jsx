@@ -6,7 +6,7 @@ const HomePage = () => {
   return (
     <div
       id="xx1"
-      className="top-0 flex flex-col scroll-smooth items-center text-center  justify-center"
+      className="top-0 my-5 flex flex-col scroll-smooth items-center text-center  justify-center"
     >
       <div
         id="steellun"
@@ -37,35 +37,15 @@ const HomePage = () => {
         <div className="font-medium backdrop-blur-xl mx-5 p-4 md:p-10 rounded-2xl backdrop-filter bg-white/20 bg-opacity-30 w-[96%] mb-20">
           <div className="mb-12">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-5 bg-gradient-to-r from-white  to-red-500 bg-clip-text text-transparent">
-              THE OFFICIAL MATERIAL ADVANTAGE CHAPTER
+              WHO WE ARE !!
             </h2>
             <div className="w-44 h-1.5 bg-gradient-to-r from-red-600 to-red-400 mx-auto rounded-full"></div>
           </div>
-          <div className="font-medium  text-[#c6c1c1] text-md sm:text-lg md:text-2xl">
-            <span className=" text-red-500 font-bold">STEELLUN</span> is the
-            official Material Advantage chapter of NIT Rourkela and proudly
-            stands among the nine recognized chapters in India. Backed by
-            internationally renowned organizations like ASM International,
-            ACerS, AIST, and TMS, STEELLUN serves as a bridge between students
-            and the global materials science community.
+          <div className="font-medium text-center w-[80%] mx-auto  text-[#c6c1c1] text-md sm:text-lg my-10 md:text-3xl">
+            <span className=" text-red-500 font-bold">STEELLUN</span> is the official Material Advantage chapter of NIT Rourkela, proudly standing as one of just nine recognized chapters in India. Backed by renowned international organizations like ASM, ACerS, AIST, and TMS, we serve as a vital bridge connecting students with the global materials science community and providing them a platform for professional growth.
             <br />
             <br />
-            Our mission is to provide a vibrant platform for aspiring materials
-            scientists and engineers to gain real-world exposure, collaborate on
-            research, and build skills beyond the classroom. Through hands-on
-            workshops, industry-led sessions, certification programs, and
-            student-driven projects, we empower learners to engage with
-            cutting-edge technologies — from advanced steels and alloys to
-            nanomaterials, biomaterials, and sustainable innovations.
-            <br />
-            <br />
-            STEELLUN fosters a culture of curiosity, collaboration, and
-            continuous learning. By connecting academia with industry, and
-            theory with application, we aim to shape students into
-            forward-thinking professionals who are ready to contribute
-            meaningfully to the evolving world of materials science. At
-            STEELLUN, learning isn't just about lectures — it's about forging
-            experiences, forming connections, and creating impact.
+            Our mission is to offer real-world exposure beyond the classroom. Through hands-on workshops, industry-led sessions, and student-driven projects, we explore cutting-edge technologies—from advanced alloys to biomaterials and sustainable innovations. By fostering a culture of curiosity and linking theory with application, we empower the next generation of materials scientists to forge experiences, form connections, and create a meaningful impact.
           </div>
         </div>
       </div>
@@ -76,7 +56,7 @@ const HomePage = () => {
         {/* Animated background elements */}
         <div className="mb-12">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-5 bg-gradient-to-r from-white  to-red-500 bg-clip-text text-transparent">
-            WHO WE ARE !!
+            THE MISSION
           </h2>
           <div className="w-44 h-1.5 bg-gradient-to-r from-red-600 to-red-400 mx-auto rounded-full"></div>
         </div>
@@ -155,7 +135,7 @@ const HomePage = () => {
       >
         {/* Meet Our Team Section */}
         <div className="text-center">
-          <div className="mb-18">
+          <div className="mt-5 mb-8 md:mb-18">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-5 bg-gradient-to-r from-white  to-red-400 bg-clip-text text-transparent">
               MEET OUR TEAM
             </h2>
@@ -167,7 +147,7 @@ const HomePage = () => {
             <div className="absolute -inset-5 bg-gradient-to-r animate-pulse from-red-600 via-red-500 to-red-600 rounded-lg blur-xl opacity-65 group-hover:opacity-100 transition-opacity duration-300"></div>
 
             {/* Main image container */}
-            <div className="relative bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg shadow-2xl transform group-hover:scale-[1.02] transition-all duration-500">
+            <div className="relative mx-auto mb-5 w-[90%] md:w-full bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg shadow-2xl transform group-hover:scale-[1.02] transition-all duration-500">
               <div className="relative overflow-hidden rounded-lg">
                 <img
                   src={teamImage}
