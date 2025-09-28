@@ -1,5 +1,5 @@
 import React from 'react';
-import teamImage from '../assets/dummycard.png';
+import teamImage from '../assets/team_pic.jpg';
 
 const AboutSection = () => {
   return (

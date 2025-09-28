@@ -3,7 +3,7 @@
 const managementMembers = [
 	{
 		"Full Name": "Saidas Subhadarshi",
-		"Team Name / Designation": "Management, Design, Member",
+		"Team Name / Designation": "Management Team Member",
 		"Upload Profile Photo": "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1752130015/IMG-20250304-WA0077_-_Saidas_Subhadarshi_ws9rl2.jpg",
 		"Your Quote": "Dream it. Alloy it. Deliver it."
 	},
@@ -15,31 +15,31 @@ const managementMembers = [
 	},
 	{
 		"Full Name": "Deepa Prajapati",
-		"Team Name / Designation": "Management and desgin team member",
+		"Team Name / Designation": "Management Team member",
 		"Upload Profile Photo": "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1752130011/IMG-20250112-WA0015_-_Deepa_Prajapati_kq2shx.jpg",
 		"Your Quote": "Build strong,thinking smart-Steellun NITR"
 	},
 	{
 		"Full Name": "Rakesh Kumar Sahoo",
-		"Team Name / Designation": "Management Coordinator",
+		"Team Name / Designation": "Management Team Member",
 		"Upload Profile Photo": "https://res.cloudinary.com/dxkzgrqsg/image/upload/v1754942904/pdd180wbnaqtjk2kxyty.jpg",
 		"Your Quote": "Ambition without action becomes anxiety"
 	},
 	{
 		"Full Name": "Kartikey",
-		"Team Name / Designation": "Management team",
+		"Team Name / Designation": "Management Team Member",
 		"Upload Profile Photo": "https://res.cloudinary.com/dxkzgrqsg/image/upload/v1754942906/d6am9llwwosva2mi1nyl.jpg",
 		"Your Quote": "There is a 1% chance, and sometimes that chance is good enough."
 	},
 	{
 		"Full Name": "Subasis Swain",
-		"Team Name / Designation": "Management (Event management)",
+		"Team Name / Designation": "Management Team Member",
 		"Upload Profile Photo": "https://res.cloudinary.com/dxkzgrqsg/image/upload/v1754942908/hqbiomnsuda2co8aaxcr.png",
 		"Your Quote": "veni vidi vici"
 	},
 	{
 		"Full Name": "Tanisha Jena ",
-		"Team Name / Designation": "Management team /Member ",
+		"Team Name / Designation": "Management Team Member ",
 		"Upload Profile Photo": "https://res.cloudinary.com/dxkzgrqsg/image/upload/v1754942911/nu3bp6i6p3svsenlgkxz.jpg",
 		"Your Quote": "You're not lost , you're just exploring."
 	}

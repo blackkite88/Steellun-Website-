@@ -25,9 +25,9 @@ const Navbar = () => {
       </div>
 
       {/* Desktop Menu */}
-      <ul className="hidden lg:flex font-medium text-lg gap-8">
+      <ul className="hidden lg:flex font-medium text-xl gap-14 mr-8">
         <li><NavLink className={linkStyle} id='nav-full' to="/" >Home</NavLink></li>
-        <li><NavLink className={linkStyle} id='nav-full' to="/about" >About Us</NavLink></li>
+        {/* <li><NavLink className={linkStyle} id='nav-full' to="/about" >About Us</NavLink></li> */}
         <li><NavLink className={linkStyle} id='nav-full' to="/events" >Events</NavLink></li>
         <li><NavLink className={linkStyle} id='nav-full' to="/team" >Team</NavLink></li>
         <li><NavLink className={linkStyle} id='nav-full' to="/gallery" >Gallery</NavLink></li>
