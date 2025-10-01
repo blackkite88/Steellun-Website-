@@ -6,7 +6,7 @@ const HomePage = () => {
   return (
     <div
       id="xx1"
-      className="top-0 my-5 flex flex-col scroll-smooth items-center text-center  justify-center"
+      className="top-0 mt-5 flex flex-col scroll-smooth items-center text-center mb-20 lg:mb-5  justify-center"
     >
       <div
         id="steellun"

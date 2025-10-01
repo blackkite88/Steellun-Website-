@@ -44,7 +44,7 @@ const Navbar = () => {
       {showNav && (
         <ul className="lg:hidden flex flex-col font-medium text-center w-full mt-4 gap-3 rounded-lg transition-all duration-300 ease-in-out">
           <li><NavLink id='nav-menu' className={linkStyle} to="/" onClick={handleNav}>Home</NavLink></li>
-          <li><NavLink id='nav-menu' className={linkStyle} to="/about" onClick={handleNav}>About Us</NavLink></li>
+          {/* <li><NavLink id='nav-menu' className={linkStyle} to="/about" onClick={handleNav}>About Us</NavLink></li> */}
           <li><NavLink id='nav-menu' className={linkStyle} to="/events" onClick={handleNav}>Events</NavLink></li>
           <li><NavLink id='nav-menu' className={linkStyle} to="/team" onClick={handleNav}>Team</NavLink></li>
           <li><NavLink id='nav-menu' className={linkStyle} to="/gallery" onClick={handleNav}>Gallery</NavLink></li>
