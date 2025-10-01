@@ -26,7 +26,7 @@ const Team = () => {
       <div className="w-screen flex m-5 flex-col relative text-center justify-center items-center">
         <h1 className='font-bold text-[#c6c1c1] text-lg sm:text-xl md:text-4xl' >EXECUTIVE BODY</h1>
         <div className="w-44 h-1 bg-gradient-to-r from-yellow-500 to-yellow-200 mx-auto mt-2 mb-5 rounded-full"></div>
-        <div className="flex flex-wrap justify-center gap-2 mx-2 md:gap-12 ">
+        <div className="flex flex-wrap justify-center gap-6 mx-2 md:gap-12 ">
           {ebMembers.map((m) => (
             <TeamCard
               key={m['Full Name']}
