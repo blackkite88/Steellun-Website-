@@ -6,11 +6,11 @@ const HomePage = () => {
   return (
     <div
       id="xx1"
-      className="top-0 mt-5 flex flex-col scroll-smooth items-center text-center mb-20 lg:mb-5  justify-center"
+      className="top-0 mt-5 flex flex-col scroll-smooth items-center text-center justify-center"
     >
       <div
         id="steellun"
-        className="font-bold text-[66px]/33 sm:text-[80px]/35 md:text-[100px]/40 pb-0 lg:text-[200px]/60 mt-25 sm:mt-30"
+        className="font-bold text-[66px]/33 sm:text-[80px]/35 md:text-[100px]/40 pb-0 lg:text-[200px]/60  mt-25 sm:mt-30"
       >
         STEELLUN
       </div>
@@ -28,7 +28,7 @@ const HomePage = () => {
         </div>
         Chapter Of NIT Rourkela
       </div>
-      <div className="font-medium text-[#c6c1c1] w-78 sm:w-120 md:w-150 lg:w-150 text-lg sm:text-xl md:text-4xl mb-18 md:mb-40">
+      <div className="font-medium text-[#c6c1c1] w-78 sm:w-120 md:w-150 lg:w-150 text-lg sm:text-xl md:text-4xl mb-28 md:mb-40">
         We don’t just study materials — we
         <span className="mx-2.5 text-red-500 font-semibold italic">steel</span>
         the spotlight.
