@@ -133,14 +133,14 @@ position: fixed;
   background: linear-gradient(to right,
   #7c0202,
   #970404,
-  #c10303,
+  #bb0c0c,
   #7c0202
   );
   background-size: 200%;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: animate-gradient 5s linear infinite;
+  animation: animate-gradient 6s linear infinite;
 }
 @keyframes animate-gradient {
   to{

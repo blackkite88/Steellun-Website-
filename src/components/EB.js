@@ -5,7 +5,7 @@ const ebMembers = [
     "Full Name": "Gopal Kumar",
     "Team Name / Designation": "President ",
   "Upload Profile Photo": "https://res.cloudinary.com/dxkzgrqsg/image/upload/v1754945050/jcmr3g4wjei9fo85r1ou.jpg",
-    "Your Quote": "Quote-Driven by ideas, powered by people."
+    "Your Quote": "Driven by ideas, powered by people."
   },
   {
     "Full Name": "Aliva Acharya ",
@@ -28,14 +28,14 @@ const ebMembers = [
   {
     "Full Name": "Sammarth",
     "Team Name / Designation": "Treasurer",
-  "Upload Profile Photo": "https://res.cloudinary.com/dxkzgrqsg/image/upload/v1754942863/yw14guahctijcom0blaf.jpg",
+  "Upload Profile Photo": "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759328334/IMG_3653_-_Sammarth_1_whc3ki.jpg",
     "Your Quote": "Be yourself; everyone else is already taken."
   },
   {
     "Full Name": "Rommit Dutta ",
     "Team Name / Designation": "Content Team Head ",
   "Upload Profile Photo": "https://res.cloudinary.com/dxkzgrqsg/image/upload/v1754945818/ow5imt37uowajsxgrjwf.jpg",
-    "Your Quote": "Move with purpose, speak with grace, grow through change, and rest without guilt."
+    "Your Quote": "Life unfolds quietly, yet meaningfully."
   },
    {
     "Full Name": "Girija Nandan Jena",
@@ -66,7 +66,7 @@ const ebMembers = [
     "Full Name": "Tarwish Sahayata ",
     "Team Name / Designation": "GI Convenor",
   "Upload Profile Photo": "https://res.cloudinary.com/dxkzgrqsg/image/upload/v1754942886/taard41ztvpf93uq2duk.jpg",
-    "Your Quote": ""
+    "Your Quote": "In the middle of every difficulty lies opportunity"
   },
   // Soumaya not found in provided data, skipping for now
   {

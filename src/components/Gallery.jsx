@@ -2,24 +2,26 @@ import React, { useState } from "react";
 
 const images = [
   [
-    "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759037502/p2_oiox0h.jpg",
-    "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759037489/p4_gxdqdn.jpg",
-    "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759037500/p1_j1vdjk.jpg",
+    "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759323040/WhatsApp_Image_2025-09-30_at_01.27.04_o0ylwl.jpg",
+    "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759323040/WhatsApp_Image_2025-09-30_at_01.27.06_gtuc0l.jpg",
+    "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759323039/WhatsApp_Image_2025-09-30_at_01.27.06_1_kikbgx.jpg",
+    "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759323036/WhatsApp_Image_2025-09-29_at_20.27.19_d3i2d7.jpg",
   ],
   [
-    "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759037506/p3_lpmpo6.jpg",
-    "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759037522/p5_ulqsbu.jpg",
-    "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg",
+    "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759323036/WhatsApp_Image_2025-09-30_at_01.27.06_2_kcfzut.jpg",
+    "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759323036/WhatsApp_Image_2025-09-30_at_01.27.04_1_gybsxs.jpg",
+    "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759323035/WhatsApp_Image_2025-09-30_at_01.27.03_b3uyj2.jpg",
   ],
   [
-    "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg",
-    "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg",
-    "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg",
+    "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759323035/WhatsApp_Image_2025-09-29_at_20.27.20_cqalhd.jpg",
+    "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759323035/WhatsApp_Image_2025-09-29_at_20.27.20_1_pnnfyk.jpg",
+    "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759323035/WhatsApp_Image_2025-09-30_at_01.27.03_1_pifren.jp",
+    "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759323032/WhatsApp_Image_2025-09-29_at_20.27.18_wi7rgv.jpg",
   ],
   [
-    "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg",
-    "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg",
-    "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg",
+    "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759323035/WhatsApp_Image_2025-09-30_at_01.27.03_1_pifren.jpg",
+    "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759323033/WhatsApp_Image_2025-09-29_at_20.27.19_1_surwow.jpg",
+    "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759323032/WhatsApp_Image_2025-09-29_at_14.44.04_qpyzdk.jpg",
   ],
 ];
 

@@ -2,10 +2,16 @@
 
 const contentMembers = [
 	{
+		"Full Name": "Roopkatha Dey",
+		"Team Name / Designation": "Content Team Member",
+		"Upload Profile Photo": "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1752130014/IMG_3544_-_Roopkatha_Dey_luueb5.jpg",
+		"Your Quote": "Material science is the ultimate syzygy of nature’s order and chaos"
+	},
+	{
 		"Full Name": "Anurag Kumar Singh",
 		"Team Name / Designation": "Content Team Member",
 		"Upload Profile Photo": "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1752130020/IMG-20250407-WA0071_2_-_Anurag_Kumar_Singh_ftkxli.jpg",
-		"Your Quote": "God doesn't give us knowledge directly— Rather he gives us chances to learn"
+		"Your Quote": "Do the right thing, that's all matters"
 	},
 	{
 		"Full Name": "Satyendra Kumar",
@@ -20,12 +26,6 @@ const contentMembers = [
 		"Your Quote": "Conversing with atoms!"
 	},
 	{
-		"Full Name": "ROHIT NAYAK",
-		"Team Name / Designation": "Content Team Member",
-		"Upload Profile Photo": "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1752130018/Untitled_design_20250705_215846_0000_-_Rohit_Nayak_xvyzyy.png",
-		"Your Quote": "Some people can read War and Peace and come away thinking it's a simple adventure story. Others can read the ingredients on a chewing gum wrapper and unlock the secrets of the universe."
-	},
-	{
 		"Full Name": "Diganta Ghosh",
 		"Team Name / Designation": "Content Team Member",
 		"Upload Profile Photo": "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1752130018/20250209_224558_-_Diganta_Ghosh_ovlo1d.jpg",
@@ -38,11 +38,13 @@ const contentMembers = [
 		"Your Quote": "A proud part of Steellum’s story — shaping its voice, one word at a time"
 	},
 	{
-		"Full Name": "Roopkatha Dey",
-		"Team Name / Designation": "Content Team Member",
-		"Upload Profile Photo": "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1752130014/IMG_3544_-_Roopkatha_Dey_luueb5.jpg",
-		"Your Quote": "‘Material Science is not just an engineer degree or a scientific career. It is a fine line between the perfect and imperfect, order and chaos; all the wisdom Nature has reserved for mankind to uncover.’"
-	}
+  "Full Name": "Somesh Behera",
+  "Team Name / Designation": "Content Team Member",
+  "Upload Profile Photo": "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759322924/IMG-20250416-WA0039_-_Somesh_Behera_ekxryr.jpg",
+  "Your Quote": "Even if you can’t shine like polished metal, never corrode under pressure."
+}
+
+
 ];
 
 export default contentMembers;

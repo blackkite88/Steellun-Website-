@@ -27,7 +27,20 @@ const technicalMembers = [
 		"Upload Profile Photo": "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1752130018/20250209_224558_-_Diganta_Ghosh_ovlo1d.jpg",
 		"Your Quote": "All is well."
 	},
-	
+	{
+  "Full Name": "Ankit Kumar",
+  "Team Name / Designation": "Technical Team Member",
+  "Upload Profile Photo": "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759329326/WhatsApp_Image_2025-10-01_at_19.58.42_1_bhdjiv.jpg",
+  "Your Quote": "The journey of a thousand miles begins with one step"
+},
+{
+  "Full Name": "Anubhav Gupta",
+  "Team Name / Designation": "Technical Team Member",
+  "Upload Profile Photo": "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759322922/IMG_20250710_173257_-_Ladliju_Lalju_qbuqpg.jpg",
+  "Your Quote": "Everything happens for a reason"
+}
+
+
 	
 ];
 

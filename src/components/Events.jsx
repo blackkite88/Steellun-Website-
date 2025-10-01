@@ -9,19 +9,24 @@ import Flagships from './Flagships.jsx';
 
 const slides = [
   {
-    name: "EDGE",
-    image: edge,
-    description: "jinga la la hoo hoo"
+    name: "Coming Soon",
+    image: "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759327388/coming-soon_vzrtdk.png",
+    description: "The wait is almost over..."
   },
   {
-    name: "GI",
-    image: gi,
-    description: "jinga la la hoo hoo"
+    name: "Coming Soon",
+    image: "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759327388/coming-soon_vzrtdk.png",
+    description: "The wait is almost over..."
   },
   {
-    name: "ME",
-    image: me,
-    description: "jinga la la hoo hoo"
+    name: "Coming Soon",
+    image: "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759327388/coming-soon_vzrtdk.png",
+    description: "The wait is almost over..."
+  },
+  {
+    name: "Coming Soon",
+    image: "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759327388/coming-soon_vzrtdk.png",
+    description: "The wait is almost over..."
   }
 ];
 
@@ -36,8 +41,8 @@ const Events = () => {
           <div className="w-44 h-1.5 bg-gradient-to-r from-red-600 to-red-400 mx-auto rounded-full"></div>
         </div>
         <div id='xx1' className="flex flex-wrap items-center text-center justify-center md:gap-10 px-auto gap-5">
-          <Flagships title={"EDGE"} image={edge} description={"effefe"} />
-          <Flagships title={"GI"} image={gi} description={"effefe"} />
+          <Flagships title={"EDGE"} image={"https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759245649/WhatsApp_Image_2025-09-29_at_14.51.34_1_h5cfub.jpg"} description={"Empowering the youngsters with insights into sustainable innovations at the intersection of technology and material science."} />
+          <Flagships title={"GI"} image={"https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759323032/WhatsApp_Image_2025-09-29_at_14.51.34_bykmri.jpg"} description={"Discovering the wonders of materials and the innovations they inspire."} />
         </div>
       </div>
 
@@ -48,7 +53,6 @@ const Events = () => {
           <div className="w-44 h-1.5 bg-gradient-to-r from-red-600 to-red-400 mx-auto rounded-full"></div>
         </div>
 
-      {/* Carousel on md and above */}
       <div id='xx2' className="hidden md:flex w-[90%] lg:w-[80%] h-[300px] md:h-[500px] lg:h-[650px] rounded-lg backdrop-blur-xl backdrop-filter mx-2 mb-10 bg-white/20 bg-opacity-10 justify-evenly p-1">
         <Carousel slideInterval={3000} pauseOnHover indicators={false}>
           {slides.map((s, i) => (
@@ -57,7 +61,6 @@ const Events = () => {
         </Carousel>
       </div>
 
-      {/* Grid on small screens */}
       <div id='xx2' className="md:hidden grid grid-cols-1 sm:grid-cols-2 gap-4 w-[90%] px-4 mb-10">
         {slides.map((s, i) => (
           <EventCard key={i} title={s.name} image={s.image} description={s.description} />

@@ -21,11 +21,11 @@ const Team = () => {
       <div className="flex flex-col m-5 relative text-center justify-center items-center">
         <h1 className='font-bold text-[#c6c1c1] text-lg sm:text-xl md:text-4xl' >FACULTY ADVISOR</h1>
         <div className="w-44 h-1 bg-gradient-to-r from-red-600 to-red-400 mx-auto mt-2 mb-5 rounded-full"></div>
-        <TeamCard name={"Archana Mallick"} role={"Faculty Advisor"} image={img1} quote={"evenvneveniev"} />
+        <TeamCard name={"Archana Mallick"} role={"Faculty Advisor"} image={"https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759322954/WhatsApp_Image_2025-09-29_at_19.59.44_hgqz7x.jpg"} quote={"I grade less, I guide more."} />
       </div>
       <div className="w-screen flex m-5 flex-col relative text-center justify-center items-center">
         <h1 className='font-bold text-[#c6c1c1] text-lg sm:text-xl md:text-4xl' >EXECUTIVE BODY</h1>
-        <div className="w-44 h-1 bg-gradient-to-r from-red-600 to-red-400 mx-auto mt-2 mb-5 rounded-full"></div>
+        <div className="w-44 h-1 bg-gradient-to-r from-yellow-500 to-yellow-200 mx-auto mt-2 mb-5 rounded-full"></div>
         <div className="flex flex-wrap justify-center gap-2 mx-2 md:gap-12 ">
           {ebMembers.map((m) => (
             <TeamCard
@@ -64,7 +64,7 @@ const Team = () => {
 
       <div className="w-screen flex m-5 flex-col relative text-center justify-center items-center">
         <h1 className='font-bold text-[#c6c1c1] text-lg sm:text-xl md:text-4xl'>PUBLICITY TEAM</h1>
-        <div className="w-44 h-1 bg-gradient-to-r from-yellow-600 to-yellow-400 mx-auto mt-2 mb-5 rounded-full"></div>
+        <div className="w-44 h-1 bg-gradient-to-r from-cyan-600 to-cyan-200 mx-auto mt-2 mb-5 rounded-full"></div>
         <div className="flex flex-wrap justify-center gap-2 mx-2 md:gap-12">
           {publicityMembers.map((m) => <TeamCard key={m['Full Name']} name={m['Full Name']} role={m['Team Name / Designation']} image={m['Upload Profile Photo']} quote={m['Your Quote']} />)}
         </div>
