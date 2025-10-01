@@ -9,24 +9,24 @@ import Flagships from './Flagships.jsx';
 
 const slides = [
   {
-    name: "Coming Soon",
-    image: "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759327388/coming-soon_vzrtdk.png",
-    description: "The wait is almost over..."
+    name: "Elementa Expo",
+    image: "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759336598/6_viqijo.png",
+    description: "“An engaging platform where students showcase their innovative ideas and research through creative posters, blending science with presentation skills.”"
   },
   {
-    name: "Coming Soon",
-    image: "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759327388/coming-soon_vzrtdk.png",
-    description: "The wait is almost over..."
+    name: "Materia Explore",
+    image: "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759336488/1_lr3sq1.png",
+    description: "“Dive into the world of materials with hands-on activities, demonstrations, and challenges that spark curiosity and innovation.”"
   },
   {
-    name: "Coming Soon",
-    image: "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759327388/coming-soon_vzrtdk.png",
-    description: "The wait is almost over..."
+    name: "The Symposium",
+    image: "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759336488/5_qypjdg.png",
+    description: "“An interactive session with experts, sharing insights and inspiring ideas to broaden perspectives and spark new learning.”"
   },
   {
-    name: "Coming Soon",
-    image: "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759327388/coming-soon_vzrtdk.png",
-    description: "The wait is almost over..."
+    name: "Into The Core",
+    image: "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759336944/8_tmrxeg.png",
+    description: "“A dynamic platform for participants to voice opinions, debate ideas, and sharpen critical thinking through engaging discussions.”"
   }
 ];
 
@@ -41,8 +41,8 @@ const Events = () => {
           <div className="w-44 h-1.5 bg-gradient-to-r from-red-600 to-red-400 mx-auto rounded-full"></div>
         </div>
         <div id='xx1' className="flex flex-wrap items-center text-center justify-center md:gap-10 px-auto gap-5">
-          <Flagships title={"EDGE"} image={"https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759245649/WhatsApp_Image_2025-09-29_at_14.51.34_1_h5cfub.jpg"} description={"Empowering the youngsters with insights into sustainable innovations at the intersection of technology and material science."} />
-          <Flagships title={"GI"} image={"https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759323032/WhatsApp_Image_2025-09-29_at_14.51.34_bykmri.jpg"} description={"Discovering the wonders of materials and the innovations they inspire."} />
+          <Flagships title={"EDGE"} image={"https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759245649/WhatsApp_Image_2025-09-29_at_14.51.34_1_h5cfub.jpg"} description={"Discovering the wonders of materials and the innovations they inspire."} />
+          <Flagships title={"GI"} image={"https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759323032/WhatsApp_Image_2025-09-29_at_14.51.34_bykmri.jpg"} description={"Empowering the youngsters with insights into sustainable innovations at the intersection of technology and material science."} />
         </div>
       </div>
 
