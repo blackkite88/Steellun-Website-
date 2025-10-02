@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar.jsx';
 import wallpaper from './assets/wallpaper.mp4';
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 import Events from './components/Events.jsx';
 import HomePage from './components/HomePage.jsx';
 import About from './components/About.jsx';
