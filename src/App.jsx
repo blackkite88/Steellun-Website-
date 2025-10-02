@@ -33,6 +33,9 @@ function App() {
 
         <Footer />
       </Router>
+
+      {/* Vercel Analytics Component added here */}
+      <Analytics />
     </div>
   );
 }
