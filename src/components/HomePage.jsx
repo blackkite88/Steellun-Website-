@@ -1,8 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import Typewriter from "typewriter-effect";
 import teamImage from "../assets/team_pic.jpg";
 
 const HomePage = () => {
+  const [isWhoWeAreExpanded, setIsWhoWeAreExpanded] = useState(false);
+
+  const toggleWhoWeAre = () => {
+    setIsWhoWeAreExpanded(!isWhoWeAreExpanded);
+  };
+
+  const textContainerClasses = `
+    font-medium text-center w-[80%] mx-auto text-[#c6c1c1] text-md sm:text-lg my-10 md:text-3xl 
+    overflow-hidden transition-all duration-500 ease-in-out
+    ${isWhoWeAreExpanded ? 'max-h-full' : 'max-h-52 sm:max-h-none'}
+  `;
+
   return (
     <div
       id="xx1"
@@ -10,7 +22,7 @@ const HomePage = () => {
     >
       <div
         id="steellun"
-        className="font-bold text-[66px]/33 sm:text-[80px]/35 md:text-[100px]/40 pb-0 lg:text-[200px]/60  mt-25 sm:mt-30"
+        className="font-bold text-[66px]/33 sm:text-[80px]/35 md:text-[100px]/40 pb-0 lg:text-[200px]/60 mt-25 sm:mt-30"
       >
         STEELLUN
       </div>
@@ -41,11 +53,27 @@ const HomePage = () => {
             </h2>
             <div className="w-44 h-1.5 bg-gradient-to-r from-red-600 to-red-400 mx-auto rounded-full"></div>
           </div>
-          <div className="font-medium text-center w-[80%] mx-auto  text-[#c6c1c1] text-md sm:text-lg my-10 md:text-3xl">
-            <span className=" text-red-500 font-bold">STEELLUN</span> is the official Material Advantage chapter of NIT Rourkela, proudly standing as one of just nine recognized chapters in India. Backed by renowned international organizations like ASM, ACerS, AIST, and TMS, we serve as a vital bridge connecting students with the global materials science community and providing them a platform for professional growth.
-            <br />
-            <br />
-            Our mission is to offer real-world exposure beyond the classroom. Through hands-on workshops, industry-led sessions, and student-driven projects, we explore cutting-edge technologies—from advanced alloys to biomaterials and sustainable innovations. By fostering a culture of curiosity and linking theory with application, we empower the next generation of materials scientists to forge experiences, form connections, and create a meaningful impact.
+          
+          <div className="relative">
+            <div className={textContainerClasses}>
+                <span className=" text-red-500 font-bold">STEELLUN</span> is the official Material Advantage chapter of NIT Rourkela, proudly standing as one of just nine recognized chapters in India. Backed by renowned international organizations like ASM, ACerS, AIST, and TMS, we serve as a vital bridge connecting students with the global materials science community and providing them a platform for professional growth.
+                <br />
+                <br />
+                Our mission is to offer real-world exposure beyond the classroom. Through hands-on workshops, industry-led sessions, and student-driven projects, we explore cutting-edge technologies—from advanced alloys to biomaterials and sustainable innovations. By fostering a culture of curiosity and linking theory with application, we empower the next generation of materials scientists to forge experiences, form connections, and create a meaningful impact.
+            </div>
+
+            {!isWhoWeAreExpanded && (
+                <div className="absolute inset-x-0 bottom-0 h-24 sm:hidden"></div>
+            )}
+          </div>
+
+          <div className="flex justify-center sm:hidden -mt-5 pt-3">
+            <button
+              onClick={toggleWhoWeAre}
+              className="text-red-500 hover:text-red-400 font-semibold text-lg focus:outline-none"
+            >
+              {isWhoWeAreExpanded ? 'Read Less' : 'Read More'}
+            </button>
           </div>
         </div>
       </div>
@@ -53,7 +81,6 @@ const HomePage = () => {
         id="xx2"
         className="font-medium backdrop-blur-xl mx-5 p-4 md:p-10 rounded-2xl backdrop-filter bg-white/20 bg-opacity-30 w-[96%] mb-20"
       >
-        {/* Animated background elements */}
         <div className="mb-12">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-5 bg-gradient-to-r from-white  to-red-500 bg-clip-text text-transparent">
             THE MISSION
@@ -67,9 +94,7 @@ const HomePage = () => {
         </div>
 
         <div id="xx1" className="relative z-10 px-4 sm:px-6 md:px-16 lg:px-24">
-          {/* About and Vision Section */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
-            {/* About Us */}
             <div className="group">
               <div className="inline-block mb-6 transform hover:scale-105 transition-transform duration-300">
                 <div className="relative bg-gradient-to-r from-red-600 to-red-700 px-6 py-3 font-bold text-4xl skew-x-[-20deg] shadow-lg hover:shadow-red-600/25 transition-all duration-300">
@@ -94,7 +119,6 @@ const HomePage = () => {
               </div>
             </div>
 
-            {/* Our Vision */}
             <div className="group">
               <div className="inline-block mb-6 transform hover:scale-105 transition-transform duration-300">
                 <div className="relative bg-gradient-to-r from-red-600 to-red-700 px-6 py-3 font-bold text-4xl skew-x-[-20deg] shadow-lg hover:shadow-red-600/25 transition-all duration-300">
@@ -133,7 +157,6 @@ const HomePage = () => {
         id="xx2"
         className="font-medium backdrop-blur-xl mx-5 md:p-10 rounded-2xl backdrop-filter bg-white/20 bg-opacity-30 w-[96%] mb-20"
       >
-        {/* Meet Our Team Section */}
         <div className="text-center">
           <div className="mt-5 mb-8 md:mb-18">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-5 bg-gradient-to-r from-white  to-red-400 bg-clip-text text-transparent">
@@ -143,10 +166,8 @@ const HomePage = () => {
           </div>
 
           <div className="relative group max-w-4xl mx-auto">
-            {/* Glowing border effect */}
             <div className="absolute -inset-5 bg-gradient-to-r animate-pulse from-red-600 via-red-500 to-red-600 rounded-lg blur-xl opacity-65 group-hover:opacity-100 transition-opacity duration-300"></div>
 
-            {/* Main image container */}
             <div className="relative mx-auto mb-5 w-[90%] md:w-full bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg shadow-2xl transform group-hover:scale-[1.02] transition-all duration-500">
               <div className="relative overflow-hidden rounded-lg">
                 <img
@@ -155,11 +176,9 @@ const HomePage = () => {
                   className="w-full h-auto object-cover transition-transform duration-800 group-hover:scale-101"
                 />
 
-                {/* Overlay gradient */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
 
-              {/* Decorative corner elements */}
               <div className="absolute top-5 left-5 w-4 h-4  border-red-400 opacity-60"></div>
               <div className="absolute top-5 right-5 w-4 h-4  border-red-400 opacity-60"></div>
               <div className="absolute bottom-5 left-5 w-4 h-4  border-red-400 opacity-60"></div>
