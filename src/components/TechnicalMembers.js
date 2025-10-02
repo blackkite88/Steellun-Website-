@@ -36,7 +36,7 @@ const technicalMembers = [
 {
   "Full Name": "Anubhav Gupta",
   "Team Name / Designation": "Technical Team Member",
-  "Upload Profile Photo": "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759322922/IMG_20250710_173257_-_Ladliju_Lalju_qbuqpg.jpg",
+  "Upload Profile Photo": "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759385613/IMG_20250710_173257_-_Ladliju_Lalju_1_sxl5yb.jpg",
   "Your Quote": "Everything happens for a reason"
 }
 

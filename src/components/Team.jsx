@@ -21,7 +21,7 @@ const Team = () => {
       <div className="flex flex-col m-5 relative text-center justify-center items-center">
         <h1 className='font-bold text-[#c6c1c1] text-lg sm:text-xl md:text-4xl' >FACULTY ADVISOR</h1>
         <div className="w-44 h-1 bg-gradient-to-r from-red-600 to-red-400 mx-auto mt-2 mb-5 rounded-full"></div>
-        <TeamCard name={"Archana Mallik"} role={"Faculty Advisor"} image={"https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759322954/WhatsApp_Image_2025-09-29_at_19.59.44_hgqz7x.jpg"} quote={"Think. Explore. Repeat."} />
+        <TeamCard name={"Archana Mallik"} role={"Faculty Advisor"} image={"https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759322954/WhatsApp_Image_2025-09-29_at_19.59.44_hgqz7x.jpg"} quote={"Focus fuels growth"} />
       </div>
       <div className="w-screen flex m-5 flex-col relative text-center justify-center items-center">
         <h1 className='font-bold text-[#c6c1c1] text-lg sm:text-xl md:text-4xl' >EXECUTIVE BODY</h1>

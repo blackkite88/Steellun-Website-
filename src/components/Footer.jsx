@@ -1,6 +1,6 @@
 import React from "react";
 import { ArrowUp } from "lucide-react";
-import { FaLinkedinIn, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn, FaTwitter, FaInstagram, FaFacebook, FaGlobe } from "react-icons/fa";
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -31,10 +31,10 @@ const Footer = () => {
            <FaInstagram />
           </a>
           <a
-            href="#"
+            href="https://www.steellun.in/"
             className="text-gray-400 hover:text-white transition-colors"
           >
-           <FaTwitter />
+           <FaGlobe />
           </a>
         </div>
       </div>
@@ -51,10 +51,10 @@ const Footer = () => {
           </div>
           <div>
             <p className="text-gray-300">
-              <span className="font-medium">Phone:</span> +91-661-246-2XXX
+              <span className="font-medium">Phone:</span> +91-637-147-9409
             </p>
             <p className="text-gray-300">
-              <span className="font-medium">Email:</span> info@steellun.ac.in
+              <span className="font-medium">Email:</span> nitrsteel@gmail.com
             </p>
           </div>
         </div>

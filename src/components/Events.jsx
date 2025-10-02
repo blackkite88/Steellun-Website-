@@ -27,6 +27,11 @@ const slides = [
     name: "Into The Core",
     image: "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759336944/8_tmrxeg.png",
     description: "“A dynamic platform for participants to voice opinions, debate ideas, and sharpen critical thinking through engaging discussions.”"
+  },
+  {
+    name: "Growing Innovators",
+    image: "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759384609/gi_poster_typbuy.png",
+    description: "“A platform for young minds to explore creativity, showcase ideas, and nurture the spirit of innovation from an early age.”"
   }
 ];
 
