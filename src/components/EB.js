@@ -10,7 +10,7 @@ const ebMembers = [
   {
     "Full Name": "Aliva Acharya ",
     "Team Name / Designation": "Vice President ",
-  "Upload Profile Photo": "https://res.cloudinary.com/dxkzgrqsg/image/upload/v1754942837/vsg4pilirkhacylfnncp.jpg",
+  "Upload Profile Photo": "https://res.cloudinary.com/dwhfvkfkb/image/upload/v1759464340/WhatsApp_Image_2025-10-02_at_17.29.50_mkrnqk.jpg",
     "Your Quote": "Carve your own crown."
   },
   {
